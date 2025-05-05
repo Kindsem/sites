@@ -52,25 +52,6 @@ let sites = JSON.parse(localStorage.getItem('sites')) || [
     favicon: "https://www.tbank.ru/favicon.ico"
   },
 
-  // Работа
-  {
-    name: "Тинькофф-Учеба",
-    url: "https://my.tbank.ru/edu/my-activities",
-    category: "Работа",
-    favicon: "https://www.tbank.ru/favicon.ico"
-  },
-  {
-    name: "Тинькофф-Вакансии",
-    url: "https://www.tbank.ru/career/vacancies/all/nizhny-novgorod/",
-    category: "Работа",
-    favicon: "https://www.tbank.ru/favicon.ico"
-  },
-  {
-    name: "Прослушка-встреч",
-    url: "https://tqm.tinkoff.ru/filter/communications/voice",
-    category: "Работа",
-    favicon: "https://www.tbank.ru/favicon.ico"
-  },
   // Нейросети
   {
     name: "deepseek",
@@ -80,19 +61,13 @@ let sites = JSON.parse(localStorage.getItem('sites')) || [
   },
 
   {
-    name: "ChatGPT4",
-    url: "https://ai-chatgp4.com/",
+    name: "perplexity",
+    url: "https://perplexity.com.ru/",
     category: "Нейросети",
-    favicon: "https://ai-chatgp4.com/favicon.ico"
+    favicon: "https://perplexity.com/favicon.ico"
   },
 
-  // Досуг
-  {
-    name: "Афиша",
-    url: "https://nn.kassir.ru/",
-    category: "Досуг",
-    favicon: "https://nn.kassir.ru/favicon.ico"
-  },
+
 
 ];
 
